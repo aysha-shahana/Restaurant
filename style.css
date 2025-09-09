@@ -1,0 +1,382 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #2F4F4F;
+}
+
+.logo{
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,cursive;
+    color: #f8e643;
+}
+.bg-img{
+    background-image: url(images/untitled\ banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    
+    
+}
+
+.clr-sn{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    text-decoration: none;
+    color: #f8e643;
+}
+
+
+
+.wlcm-qt{
+    margin-top: 150px;
+    color: #f9930494;
+    margin-bottom: 30px;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   text-align: center;
+   text-transform: uppercase;
+   background: linear-gradient(to right, orange,rgb(252, 145, 6),rgb(244, 240, 5),rgb(211, 137, 72),orange);
+   background-size: 200%;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: animate-gradiant 2.5s linear infinite;
+
+}
+
+@keyframes animate-gradiant{
+    to {
+        background-position: 200%;
+    }
+}
+
+
+.banner-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    
+}
+
+.options{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    list-style: none;
+    font-size: 12px;
+    color: #f8e643;
+}
+
+#sign-in{
+  border-radius: 2px;
+  background-color:#ffb84d;
+  width: 56px;
+  height: 13px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#sign-in:hover{
+   background: rgb(232, 155, 40);
+  border-radius: 2px;
+  color: black;
+  width: 56px;
+  height: 13px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.order-btn{
+    color: white;
+    background-color: #2b2419;
+    border-radius: 30px;
+    font-size: 20px;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    margin-left: 680px;
+    border: outset;
+    cursor: pointer;
+}
+
+.order-btn{
+    color: white;
+    background-color: #f37a02;
+    border-radius: 30px;
+    font-size: 20px;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    margin-left: 680px;
+    border: outset;
+}
+
+.order-btn:hover{
+    color: white;
+    background: transparent;
+    
+    font-size: 20px;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    margin-left: 680px;
+    
+}
+.out-story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.subhead{
+    color: white;
+    font-size: 22px;
+    
+}
+.about{
+    color: white;
+    font-size: 19px;
+}
+
+
+
+.card-1{
+    color: white;
+    background-color: #6d8a8a;
+    width: 330px;
+    height: 340px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-1:hover{
+    color: orange;
+    background-color: #112727;
+    width: 330px;
+    height: 340px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.kuzhimandi{
+    width: 330px;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.food-name{
+    font-size: 17px;
+    text-align: center;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   gap: 90px;
+}
+
+.spcl-ofrs{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.spcl-ofrs:hover{
+    color: darkgoldenrod;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pola{
+    width: 290px;
+    margin-left: 160px;
+    border-radius: 5px;
+   
+}
+
+.pola:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.soup{
+    width: 270px;
+    margin-left: 30px;
+    border-radius: 5px;
+    
+}
+.soup:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.karimeen{
+    width: 220px;
+    margin-left: 30px;
+    border-radius: 5px;
+   
+}
+
+.karimeen:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.chemmeen{
+    width: 220px;
+    margin-left: 200px;
+    margin-top: 50px;
+    border-radius: 5px;
+   
+    
+}
+.chemmeen:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+.soup2{
+    width: 270px;
+    margin-left: 30px;
+    margin-bottom: 120px;
+    border-radius: 5px;
+    
+}
+.soup2:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.chattychor{
+    width: 330px;
+    margin-left: 30px;
+    border-radius: 5px;
+   
+}
+.chattychor:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.kada{
+    width: 300px;
+    margin-left: 30px;
+    margin-bottom: 220px;
+    border-radius: 5px;
+      
+}
+.kada:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.mandi{
+    width: 330px;
+    margin-left: 30px;  
+    margin-bottom: 60px;
+    border-radius: 5px; 
+}
+.mandi:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.testimonial{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+.q-names{
+    color: white;
+    font-size: 20px;
+    
+}
+
+.quotes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    
+}
+
+.qts-crd{
+    background-color: #6d8a8a;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    padding-top: 50px;
+
+    
+}
+
+.container-footer{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    background-color: #112727;
+    height: 350px;
+    
+}
+
+.ftr-txts{
+    font-family:'Calibri';
+    color:white;
+}
+
+.btn{
+    width: 55px;
+    height: 35px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn:hover{
+    width: 55px;
+    height: 35px;
+    border-radius: 8px;
+
+    color: #6d8a8a;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.ftr-txts h4{
+    font-size: 27px;
+}
+
+input{
+    width: 220px;
+    height: 30px;
+    color: white;
+    background: transparent;
+    border: solid 1px gray;
+}
+
+.final{
+    background-color: #2F4F4F;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+}

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <style>
+        body{
+  margin: 0px;
+  padding: 0px;
+ background: #111;
+}
+
+.logo{
+  font-size: 50px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,cursive;
+  color: #f8e643;
+}
+
+/* .bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+} */
+
+
+/* .video-container {
+  position: relative;
+  height: 100px;
+  overflow: hidden;
+} */
+
+
+.menu{
+  text-decoration: none;
+  color: #f8e643;
+}
+
+.clr-sn{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.banner-img{
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.options{
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  list-style: none;
+  font-size: 12px;
+  color: #f8e643;
+}
+
+#sign-in{
+  border-radius: 2px;
+  background-color:#ffb84d;
+  width: 56px;
+  height: 13px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#sign-in:hover{
+   background: rgb(232, 155, 40);
+  border-radius: 2px;
+  color: black;
+  width: 56px;
+  height: 13px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+} 
+
+
+
+.products {
+  padding: 50px;
+  text-align: center;
+
+ 
+}
+
+.products h2 {
+  font-size: 48px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 30px;
+  color: #f90;
+  background-color: #262626;
+}
+
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+} */
+
+.menu-tabs{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.menu-tabs button{
+  border: none;
+  background: #f0f0f0;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-tabs button:hover{
+  background: #ddd;
+}
+
+.menu-tabs button.active{
+  background: #ff4b4b;
+  color: white;
+}
+
+.menu-container{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+
+.card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: #262626;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #bbb;
+}
+
+.card button {
+  background: #f90;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #111;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background: #ffb84d;
+}
+
+
+.tab-link{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+    </style>
+
+
+   
+    <section class="scn-one">
+   <header class="bg-img">
+    <div class="banner-img">
+        <div>
+        <p class="logo">Panea</p>
+        </div>
+        <nav>
+            <div>
+            <ul class="options">
+                <li><a class="menu" href="index.html">HOME</a></li>
+                <li><a class="menu" href="menu.html">MENU</a></li>
+                <li><a class="menu" href="">ABOUT US</a></li>
+                <li><a class="menu" href="contact.html">CONTACT</a></li>
+                <li>ORDER NOW</li>
+                <li id="sign-in"><a  class="clr-sn" href="login.html">Sign In</a></li>
+            </ul>
+        </div>
+        </nav>
+        </div>
+    </header>
+
+      <section class="products">
+    <h2>MENU</h2>
+
+       <!-- menu tabs -->
+    <div class="menu-tabs">
+                <button class="active"><a class="tab-link" href="viewall.html">PASTAS</a></button>
+                <button><a class="tab-link" href="snacks.html">SNACKS</a></button>
+                <button>BRUSCHETTA</button>
+                <button>PIZZAS</button>
+                <button>SALADS</button>
+                <button>POTATO</button>
+                <button>RICES</button>
+                <button>DRINKS</button>
+        </div>
+
+        <!-- pastas menu -->
+
+    <div class="menu-container">
+
+        <!-- card 1 -->
+      <div class="card">
+        <img src="images/parippuvada.jpg" alt="Whole Grain Spelt">
+        <h3>Whole Grain Spelt</h3>
+        <p>$6.00 | 390g</p>
+        <button>Add</button>
+      </div>
+
+      <!-- card 2 -->
+      <div class="card">
+        <img src="images/samosa.jpg" alt="Mt Ida Multigrain">
+        <h3>Mt Ida Multigrain</h3>
+        <p>$6.00 | 300g</p>
+        <button>Add</button>
+      </div>
+
+      <!-- card 3 -->
+      <div class="card">
+        <img src="images/Samosa Recipe_ How to make Samosa Recipe at Home _ Homemade Samosa Recipe - Times Food.jfif" alt="Four Seed Whole Wheat">
+        <h3>Four Seed Whole Wheat</h3>
+        <p>$5.00 | 420g</p>
+        <button>Add</button>
+      </div>
+
+      <div class="card">
+        <img src="images/Paneer Kathi Rolls.jpg" alt="Bagel Multigrain">
+        <h3>Bagel Multigrain</h3>
+        <p>$3.00 | 100g</p>
+        <button>Add</button>
+      </div>
+
+      <div class="card">
+        <img src="images/Ulundu Vadai.jpg" alt="Bagel Sesame">
+        <h3>Bagel Sesame</h3>
+        <p>$3.00 | 100g</p>
+        <button>Add</button>
+      </div>
+
+      <div class="card">
+        <img src="images/Onion Pakoda.jpg" alt="Puff Pastry">
+        <h3>Puff Pastry</h3>
+        <p>$6.00 | 130g</p>
+        <button>Add</button>
+      </div>
+
+      <div class="card">
+        <img src="images/Paneer Tikka Skewers.jpg" alt="French Baguette">
+        <h3>French Baguette</h3>
+        <p>$6.00 | 280g</p>
+        <button>Add</button>
+      </div>
+
+      <div class="card">
+        <img src="images/Veg Cutlet.jpg" alt="Puff Pastry Strawberry">
+        <h3>Puff Pastry</h3>
+        <p>$6.00 | 130g</p>
+        <button>Add</button>
+      </div>
+
+      <div class="card">
+        <img src="images/Tuna Cutlets.jpg" alt="Puff Pastry Strawberry">
+        <h3>Puff Pastry</h3>
+        <p>$6.00 | 130g</p>
+        <button>Add</button>
+      </div>
+
+      <div class="card">
+        <img src="images/Batata Vada.jpg" alt="Puff Pastry Strawberry">
+        <h3>Puff Pastry</h3>
+        <p>$6.00 | 130g</p>
+        <button>Add</button>
+      </div>
+    </div>
+    </section>
+
+
+    
+</body>
+</html>
+
+
+
