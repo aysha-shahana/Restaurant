@@ -23,7 +23,10 @@ body{
   color: #f8e643;
 }
 
-
+.shopnow-link{
+  text-decoration: none;
+  color: white;
+}
 
 .banner-img{
   display: flex;
@@ -205,7 +208,7 @@ body {
   justify-content: space-around;
   align-items: center;
   gap: 40px;
-  background-color: #112727;
+  background-color: #000404;
   height: 350px;
     
 }
@@ -245,7 +248,7 @@ input{
 }
 
 .final{
-  background-color: #2F4F4F;
+  background-color: #070808;
   color: white;
   padding: 30px;
   text-align: center;

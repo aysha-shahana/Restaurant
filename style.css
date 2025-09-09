@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #2F4F4F;
+     background: #111;
 }
 
 .logo{
@@ -39,7 +39,7 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    text-align: center;
    text-transform: uppercase;
-   background: linear-gradient(to right, orange,rgb(252, 145, 6),rgb(244, 240, 5),rgb(211, 137, 72),orange);
+   background: linear-gradient(to right, rgb(184, 79, 13),rgb(180, 66, 34),rgb(244, 240, 5),rgb(211, 137, 72),rgb(184, 79, 13));
    background-size: 200%;
    background-clip: text;
    -webkit-background-clip: text;
@@ -148,7 +148,7 @@ body{
 
 .card-1{
     color: white;
-    background-color: #6d8a8a;
+    background-color: #90653d;
     width: 330px;
     height: 340px;
     border-top-left-radius: 10px;
@@ -185,6 +185,11 @@ body{
    display: flex;
    justify-content: center;
    gap: 90px;
+}
+
+.ordernow-link{
+    text-decoration: none;
+    color: #fff;
 }
 
 .spcl-ofrs{
@@ -332,7 +337,7 @@ body{
 }
 
 .qts-crd{
-    background-color: #6d8a8a;
+    background-color: #000000;
     border-radius: 10px;
     width: 300px;
     height: 250px;
@@ -343,12 +348,11 @@ body{
 }
 
 .container-footer{
-
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 40px;
-    background-color: #112727;
+    background-color: #000404;
     height: 350px;
     
 }
@@ -391,7 +395,7 @@ input{
 }
 
 .final{
-    background-color: #2F4F4F;
+    background-color: #070808;
     color: white;
     padding: 30px;
     text-align: center;

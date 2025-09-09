@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #2F4F4F;
+    background: #111;
 }
 
 .logo{
@@ -93,15 +93,6 @@ body{
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
 .spcl-ofrs{
     margin-top: 90px;
         color: white;
@@ -123,11 +114,7 @@ body{
     align-items: center;
     gap: 45px;
 }
-.subhead{
-    color: white;
-    font-size: 22px;
-    
-}
+
 .about{
     color: white;
     font-size: 19px;
@@ -135,7 +122,11 @@ body{
 
 .team-stry{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+
+    
     
 }
 
@@ -143,20 +134,22 @@ body{
     color: #fff;
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 
 .tm-bg-clr{
-    background-color: #0010104d;
-    height: 700px;
+    background-color: rgba(128, 128, 128, 0.086);
+    height: 660px;
     padding-top: 20px;
    
 }
 
-.blank{
+/* .blank{
     background-color: #2F4F4F;
-    height: 200px;
-}
+    height: 50px;
+    margin-top: 100px;
+} */
 .team-img{
     width: 400px;
     border-radius: 10px;
@@ -169,7 +162,7 @@ body{
     justify-content: space-around;
     align-items: center;
     gap: 40px;
-    background-color: #112727;
+    background-color: #000404;
     height: 350px;
     
 }
@@ -212,7 +205,7 @@ input{
 }
 
 .final{
-    background-color: #2F4F4F;
+    background-color: #070808;
     color: white;
     padding: 30px;
     text-align: center;
