@@ -1,0 +1,220 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #2F4F4F;
+}
+
+.logo{
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,cursive;
+    color: #f8e643;
+}
+.bg-img{
+    background-image: url(images/about\ banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    margin: 0px;
+    
+    
+}
+
+.clr-sn{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    text-decoration: none;
+    color: #f8e643;
+}
+
+
+
+.wlcm-qt{
+    margin-top: 150px;
+    color: #b8751794;
+    margin-bottom: 30px;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   text-align: center;
+   text-transform: uppercase;
+   background: linear-gradient(to right, rgb(174, 160, 134),rgb(152, 98, 27),rgb(151, 149, 27),rgb(211, 137, 72),orange);
+   background-size: 200%;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: animate-gradiant 2.5s linear infinite;
+
+}
+
+@keyframes animate-gradiant{
+    to {
+        background-position: 200%;
+    }
+}
+
+
+.banner-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    
+}
+
+.options{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    list-style: none;
+    font-size: 12px;
+    color: #f8e643;
+}
+
+#sign-in{
+  border-radius: 2px;
+  background-color:#ffb84d;
+  width: 56px;
+  height: 13px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#sign-in:hover{
+   background: rgb(232, 155, 40);
+  border-radius: 2px;
+  color: black;
+  width: 56px;
+  height: 13px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.spcl-ofrs{
+    margin-top: 90px;
+        color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.spcl-ofrs:hover{
+    color: darkgoldenrod;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+.out-story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.subhead{
+    color: white;
+    font-size: 22px;
+    
+}
+.about{
+    color: white;
+    font-size: 19px;
+}
+
+.team-stry{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.paragph{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.tm-bg-clr{
+    background-color: #0010104d;
+    height: 700px;
+    padding-top: 20px;
+   
+}
+
+.blank{
+    background-color: #2F4F4F;
+    height: 200px;
+}
+.team-img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+.container-footer{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    background-color: #112727;
+    height: 350px;
+    
+}
+
+.ftr-txts{
+    font-family:'Calibri';
+    color:white;
+}
+
+.btn{
+    width: 55px;
+    height: 35px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn:hover{
+    width: 55px;
+    height: 35px;
+    border-radius: 8px;
+
+    color: #6d8a8a;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.ftr-txts h4{
+    font-size: 27px;
+}
+
+input{
+    width: 220px;
+    height: 30px;
+    color: white;
+    background: transparent;
+    border: solid 1px gray;
+}
+
+.final{
+    background-color: #2F4F4F;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+}

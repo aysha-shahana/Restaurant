@@ -182,4 +182,57 @@ body{
   color: black;
 }
 
+.container-footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  background-color: #112727;
+  height: 350px;
+    
+}
+
+.ftr-txts{
+  font-family:'Calibri';
+  color:white;
+}
+
+.snd-btn{
+  width: 55px;
+  height: 35px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.snd-btn:hover{
+  width: 55px;
+  height: 35px;
+  border-radius: 8px;
+  color: #6d8a8a;
+  text-align: center;
+  font-weight: bold;
+}
+
+.ftr-txts h4{
+  font-size: 27px;
+}
+
+input{
+  width: 220px;
+  height: 30px;
+  color: white;
+  background: transparent;
+  border: solid 1px gray;
+}
+
+.final{
+  background-color: #2F4F4F;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+
 
