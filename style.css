@@ -13,11 +13,15 @@ body{
     background-image: url(images/untitled\ banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+     width: 100vw;
     height: 750px;
-    
-    
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 .clr-sn{
     text-decoration: none;
@@ -92,20 +96,9 @@ body{
   text-align: center;
 }
 
-.order-btn{
-    color: white;
-    background-color: #2b2419;
-    border-radius: 30px;
-    font-size: 20px;
-    width: 170px;
-    height: 50px;
-    text-align: center;
-    margin-left: 680px;
-    border: outset;
-    cursor: pointer;
-}
 
-.order-btn{
+
+.order-btn {
     color: white;
     background-color: #f37a02;
     border-radius: 30px;
@@ -113,14 +106,16 @@ body{
     width: 170px;
     height: 50px;
     text-align: center;
-    margin-left: 680px;
     border: outset;
+    cursor: pointer;
+    margin: 0 auto; /* centers the button */
+    display: block;
 }
+
 
 .order-btn:hover{
     color: white;
-    background: transparent;
-    
+    background: transparent;  
     font-size: 20px;
     width: 170px;
     height: 50px;
@@ -128,7 +123,7 @@ body{
     margin-left: 680px;
     
 }
-.out-story{
+.our-story{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -401,3 +396,123 @@ input{
     text-align: center;
     margin: 0;
 }
+
+
+@media (max-width: 600px) {
+
+    .options{
+        margin-right: -90px;
+    }
+
+    .container,
+    .our-story,
+    .quotes,
+    .container-footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .subhead{
+        font-size: 18px;
+        margin-left: 50px;
+    }
+
+    .about{
+        font-size: 14px;
+        margin-left: 50px;
+
+    }
+
+    .card-1 {
+        width: 80%;
+        height: auto;  
+        margin-left: 100px;
+    }
+
+    .pola,
+    .soup,
+    .karimeen,
+    .chemmeen,
+    .soup2,
+    .chattychor,
+    .juice,
+    .kada,
+    .mandi {
+        width: 20%;
+        margin-left: 40px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    .order-btn {
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 22px;
+        margin-left: -70px;
+        margin-top: -30px;
+    }
+
+    .wlcm-qt {
+        font-size: 40px;
+        margin-top: 80px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .options {
+        flex-direction: column;
+        align-items: end;
+        font-size: 14px;
+    }
+
+    .bg-img {
+        height: auto;
+        width: 425px;
+        padding-bottom: 50px;
+    }
+
+    
+
+    video{
+        width: 530px;
+        margin-bottom: -90px;
+        margin-top: -60px;
+    }
+
+    .container-footer {
+        padding: 20px;
+        width: 380px;
+    }
+
+    .ftr-txts{
+        font-size: 12px;
+        margin-left: -100px;
+    }
+
+    #contact-ft{
+        margin-left: -210px;
+    }
+
+    .ftr-txts h4{
+        font-size: 14px;
+    }
+
+    .spcl-ofrs{
+        margin-left: 100px ;
+        font-size: 24px;
+    }
+
+    .final{
+        width: 360px;
+    }
+
+    .qts-crd{
+        width: 350px;
+        margin-left: 100px;
+    }
+}
+
+
