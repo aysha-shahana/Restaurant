@@ -1,400 +1,397 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panea Restaurant</title>
-    <link rel="icon" type="image/x-icon" href="/images/WhatsApp Image 2025-09-10 at 4.58.09 PM.jpeg">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panea Restaurant</title>
+  <link rel="icon" type="image/x-icon" href="/images/WhatsApp Image 2025-09-10 at 4.58.09 PM.jpeg">
+
 </head>
+
 <body>
 
-    <style>
-        body{
-  margin: 0px;
-  padding: 0px;
- background: #111;
-}
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+      background: #111;
+    }
 
-.logo{
-  font-size: 50px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,cursive;
-  color: #f8e643;
-}
+    .logo {
+      font-size: 50px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, cursive;
+      color: #f8e643;
+    }
 
-/* .bg-img{
+    /* .bg-img{
     background-repeat: no-repeat;
     background-size: cover;
     height: 130px;
 } */
 
 
-/* .video-container {
+    /* .video-container {
   position: relative;
   height: 100px;
   overflow: hidden;
 } */
 
 
-.menu{
-  text-decoration: none;
-  color: #f8e643;
-}
+    .menu {
+      text-decoration: none;
+      color: #f8e643;
+    }
 
-.clr-sn{
-  text-decoration: none;
-  color: black;
-}
-
-
-
-.banner-img{
-  display: flex;
-  justify-content: space-around;
-  align-items: center; 
-}
-
-.options{
-  display: flex;
-  justify-content: end;
-  gap: 15px;
-  list-style: none;
-  font-size: 12px;
-  color: #f8e643;
-}
-
-#sign-in{
-  border-radius: 2px;
-  background-color:#ffb84d;
-  width: 56px;
-  height: 13px;
-  padding-bottom: 10px;
-  font-size: 14px;
-  text-align: center;
-}
-
-#sign-in:hover{
-   background: rgb(232, 155, 40);
-  border-radius: 2px;
-  color: black;
-  width: 56px;
-  height: 13px;
-  padding-bottom: 10px;
-  font-size: 14px;
-  text-align: center;
-} 
+    .clr-sn {
+      text-decoration: none;
+      color: black;
+    }
 
 
 
-.products {
-  padding: 50px;
-  text-align: center;
+    .banner-img {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
 
- 
-}
+    .options {
+      display: flex;
+      justify-content: end;
+      gap: 15px;
+      list-style: none;
+      font-size: 12px;
+      color: #f8e643;
+    }
 
-.products h2 {
-  font-size: 48px;
-  font-family: 'Times New Roman', Times, serif;
-  margin-bottom: 30px;
-  color: #f90;
-  background-color: #262626;
-}
+    #sign-in {
+      border-radius: 2px;
+      background-color: #ffb84d;
+      width: 56px;
+      height: 13px;
+      padding-bottom: 10px;
+      font-size: 14px;
+      text-align: center;
+    }
 
-/* .grid {
+    #sign-in:hover {
+      background: rgb(232, 155, 40);
+      border-radius: 2px;
+      color: black;
+      width: 56px;
+      height: 13px;
+      padding-bottom: 10px;
+      font-size: 14px;
+      text-align: center;
+    }
+
+
+
+    .products {
+      padding: 50px;
+      text-align: center;
+
+
+    }
+
+    .products h2 {
+      font-size: 48px;
+      font-family: 'Times New Roman', Times, serif;
+      margin-bottom: 30px;
+      color: #f90;
+      background-color: #262626;
+    }
+
+    /* .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
 } */
 
-.menu-tabs{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-  gap: 20px;
-}
+    .menu-tabs {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+      gap: 20px;
+    }
 
-.menu-tabs button{
-  border: none;
-  background: #f0f0f0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  font-size: 14px;
-  cursor: pointer;
-  transition: 0.3s;
-}
+    .menu-tabs button {
+      border: none;
+      background: #f0f0f0;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
 
-.menu-tabs button:hover{
-  background: #ddd;
-}
+    .menu-tabs button:hover {
+      background: #ddd;
+    }
 
-.menu-tabs button.active{
-  background: #ff4b4b;
-  color: white;
-}
+    .menu-tabs button.active {
+      background: #ff4b4b;
+      color: white;
+    }
 
-.menu-container{
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-  padding: 20px;
-}
-
-
-.card {
-  background: #1a1a1a;
-  border-radius: 12px;
-  padding: 20px;
-  width: 250px;
-  transition: 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  background: #262626;
-}
-
-.card img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-.card h3 {
-  color: #fff;
-  font-size: 18px;
-  margin-bottom: 5px;
-}
-
-.card p {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #bbb;
-}
-
-.card button {
-  background: #f90;
-  border: none;
-  padding: 8px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-  color: #111;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.card button:hover {
-  background: #ffb84d;
-}
+    .menu-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
 
 
-.tab-link{
-  text-decoration: none;
-  color: black;
-}
+    .card {
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 20px;
+      width: 250px;
+      transition: 0.3s;
+    }
 
-.container-footer{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 40px;
-  background-color: #000404;
-  height: 350px;
-    
-}
+    .card:hover {
+      transform: translateY(-5px);
+      background: #262626;
+    }
 
-.ftr-txts{
-  font-family:'Calibri';
-  color:white;
-}
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
 
-.snd-btn{
-  width: 55px;
-  height: 35px;
-  border-radius: 8px;
-  text-align: center;
-  font-weight: bold;
-}
+    .card h3 {
+      color: #fff;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
 
-.snd-btn:hover{
-  width: 55px;
-  height: 35px;
-  border-radius: 8px;
-  color: #6d8a8a;
-  text-align: center;
-  font-weight: bold;
-}
+    .card p {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #bbb;
+    }
 
-.ftr-txts h4{
-  font-size: 27px;
-}
+    .card button {
+      background: #f90;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      color: #111;
+      font-weight: bold;
+      transition: 0.3s;
+    }
 
-input{
-  width: 220px;
-  height: 30px;
-  color: white;
-  background: transparent;
-  border: solid 1px gray;
-}
-
-.final{
-    background-color: #070808;
-  color: white;
-  padding: 30px;
-  text-align: center;
-  margin: 0;
-}
+    .card button:hover {
+      background: #ffb84d;
+    }
 
 
+    .tab-link {
+      text-decoration: none;
+      color: black;
+    }
+
+    .container-footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 40px;
+      background-color: #000404;
+      height: 350px;
+
+    }
+
+    .ftr-txts {
+      font-family: 'Calibri';
+      color: white;
+    }
+
+    .snd-btn {
+      width: 55px;
+      height: 35px;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .snd-btn:hover {
+      width: 55px;
+      height: 35px;
+      border-radius: 8px;
+      color: #6d8a8a;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .ftr-txts h4 {
+      font-size: 27px;
+    }
+
+    input {
+      width: 220px;
+      height: 30px;
+      color: white;
+      background: transparent;
+      border: solid 1px gray;
+    }
+
+    .final {
+      background-color: #070808;
+      color: white;
+      padding: 30px;
+      text-align: center;
+      margin: 0;
+    }
+  </style>
 
 
 
-    </style>
-
-
-   
-    <section class="scn-one">
-   <header class="bg-img">
-    <div class="banner-img">
+  <section class="scn-one">
+    <header class="bg-img">
+      <div class="banner-img">
         <div>
-        <p class="logo">Panea</p>
+          <p class="logo">Panea</p>
         </div>
         <nav>
-            <div>
+          <div>
             <ul class="options">
-                <li><a class="menu" href="index.html">HOME</a></li>
-                <li><a class="menu" href="menu.html">MENU</a></li>
-                <li><a class="menu" href="about.html">ABOUT US</a></li>
-                <li><a class="menu" href="contact.html">CONTACT</a></li>
-                <li id="sign-in"><a  class="clr-sn" href="login.html">Sign In</a></li>
+              <li><a class="menu" href="index.html">HOME</a></li>
+              <li><a class="menu" href="menu.html">MENU</a></li>
+              <li><a class="menu" href="about.html">ABOUT US</a></li>
+              <li><a class="menu" href="contact.html">CONTACT</a></li>
+              <li id="sign-in"><a class="clr-sn" href="login.html">Sign In</a></li>
             </ul>
-        </div>
+          </div>
         </nav>
-        </div>
+      </div>
     </header>
 
-      <section class="products">
-    <h2>MENU</h2>
+    <section class="products">
+      <h2>MENU</h2>
 
-       <!-- menu tabs -->
-    <div class="menu-tabs">
-                <button><a class="tab-link" href="viewall.html">PASTAS</a></button>
-                <button><a class="tab-link" href="snacks.html">SNACKS</a></button>
-                <button class="active"><a class="tab-link" href="pizza.html">PIZZAS</a></button>
-                 <button><a class="tab-link" href="salad.html">SALADS</a></button>
-                <button><a class="tab-link" href="potato.html">POTATO</a></button>
-                <button><a class="tab-link" href="rices.html">RICES</a></button>
-                <button ><a class="tab-link" href="drinks.html"></a>DRINKS</button>
-               
-        </div>
+      <!-- menu tabs -->
+      <div class="menu-tabs">
+        <button><a class="tab-link" href="viewall.html">PASTAS</a></button>
+        <button><a class="tab-link" href="snacks.html">SNACKS</a></button>
+        <button class="active"><a class="tab-link" href="pizza.html">PIZZAS</a></button>
+        <button><a class="tab-link" href="salad.html">SALADS</a></button>
+        <button><a class="tab-link" href="potato.html">POTATO</a></button>
+        <button><a class="tab-link" href="rices.html">RICES</a></button>
+        <button><a class="tab-link" href="drinks.html"></a>DRINKS</button>
 
-        <!-- pastas menu -->
+      </div>
 
-    <div class="menu-container">
+      <!-- pastas menu -->
+
+      <div class="menu-container">
 
         <!-- card 1 -->
-      <div class="card">
-        <img src="images/Delicious Pizza.jfif" alt="Whole Grain Spelt">
-        <h3>Whole Grain Spelt</h3>
-        <p>$6.00 | 390g</p>
-        <button>Add</button>
-      </div>
+        <div class="card">
+          <img src="images/Delicious Pizza.jfif" alt="Whole Grain Spelt">
+          <h3>Whole Grain Spelt</h3>
+          <p>$6.00 | 390g</p>
+          <button>Add</button>
+        </div>
 
-      <!-- card 2 -->
-      <div class="card">
-        <img src="images/Heart-Shaped Pizzas_ Perfect for Valentine’s or Galentine’s Day.jfif" alt="Mt Ida Multigrain">
-        <h3>Mt Ida Multigrain</h3>
-        <p>$6.00 | 300g</p>
-        <button>Add</button>
-      </div>
+        <!-- card 2 -->
+        <div class="card">
+          <img src="images/Heart-Shaped Pizzas_ Perfect for Valentine’s or Galentine’s Day.jfif"
+            alt="Mt Ida Multigrain">
+          <h3>Mt Ida Multigrain</h3>
+          <p>$6.00 | 300g</p>
+          <button>Add</button>
+        </div>
 
-      <!-- card 3 -->
-      <div class="card">
-        <img src="images/Pizzette  - Mini Pizza Bites.jfif" alt="Four Seed Whole Wheat">
-        <h3>Four Seed Whole Wheat</h3>
-        <p>$5.00 | 420g</p>
-        <button>Add</button>
-      </div>
+        <!-- card 3 -->
+        <div class="card">
+          <img src="images/Pizzette  - Mini Pizza Bites.jfif" alt="Four Seed Whole Wheat">
+          <h3>Four Seed Whole Wheat</h3>
+          <p>$5.00 | 420g</p>
+          <button>Add</button>
+        </div>
 
-      <div class="card">
-        <img src="images/Paneer Naan Pizza Recipe_ How to make paneer Pizza.jfif" alt="Bagel Multigrain">
-        <h3>Bagel Multigrain</h3>
-        <p>$3.00 | 100g</p>
-        <button>Add</button>
-      </div>
+        <div class="card">
+          <img src="images/Paneer Naan Pizza Recipe_ How to make paneer Pizza.jfif" alt="Bagel Multigrain">
+          <h3>Bagel Multigrain</h3>
+          <p>$3.00 | 100g</p>
+          <button>Add</button>
+        </div>
 
-      <div class="card">
-        <img src="images/Paneer Pizza (From Scratch) - Cooking Carnival.jfif" alt="Bagel Sesame">
-        <h3>Bagel Sesame</h3>
-        <p>$3.00 | 100g</p>
-        <button>Add</button>
-      </div>
+        <div class="card">
+          <img src="images/Paneer Pizza (From Scratch) - Cooking Carnival.jfif" alt="Bagel Sesame">
+          <h3>Bagel Sesame</h3>
+          <p>$3.00 | 100g</p>
+          <button>Add</button>
+        </div>
 
-      <div class="card">
-        <img src="images/e545a647-8645-49e2-aeea-5de8b4938aa8.jfif" alt="Puff Pastry">
-        <h3>Puff Pastry</h3>
-        <p>$6.00 | 130g</p>
-        <button>Add</button>
-      </div>
+        <div class="card">
+          <img src="images/e545a647-8645-49e2-aeea-5de8b4938aa8.jfif" alt="Puff Pastry">
+          <h3>Puff Pastry</h3>
+          <p>$6.00 | 130g</p>
+          <button>Add</button>
+        </div>
 
-      <div class="card">
-        <img src="images/Four-Cheese Pizza Recipe – A Cheesy Delight for Cheese Day.jfif" alt="French Baguette">
-        <h3>French Baguette</h3>
-        <p>$6.00 | 280g</p>
-        <button>Add</button>
-      </div>
+        <div class="card">
+          <img src="images/Four-Cheese Pizza Recipe – A Cheesy Delight for Cheese Day.jfif" alt="French Baguette">
+          <h3>French Baguette</h3>
+          <p>$6.00 | 280g</p>
+          <button>Add</button>
+        </div>
 
-      <div class="card">
-        <img src="images/22 Homemade Cheese Pizza Ideas for National Cheese Pizza Day.jfif" alt="Puff Pastry Strawberry">
-        <h3>Puff Pastry</h3>
-        <p>$6.00 | 130g</p>
-        <button>Add</button>
-      </div>
+        <div class="card">
+          <img src="images/22 Homemade Cheese Pizza Ideas for National Cheese Pizza Day.jfif"
+            alt="Puff Pastry Strawberry">
+          <h3>Puff Pastry</h3>
+          <p>$6.00 | 130g</p>
+          <button>Add</button>
+        </div>
 
-      <div class="card">
-        <img src="images/71bce4e6-bfcf-4838-bec2-3ae35cec8313.jfif" alt="Puff Pastry Strawberry">
-        <h3>Puff Pastry</h3>
-        <p>$6.00 | 130g</p>
-        <button>Add</button>
-      </div>
+        <div class="card">
+          <img src="images/71bce4e6-bfcf-4838-bec2-3ae35cec8313.jfif" alt="Puff Pastry Strawberry">
+          <h3>Puff Pastry</h3>
+          <p>$6.00 | 130g</p>
+          <button>Add</button>
+        </div>
 
-    </div>
+      </div>
     </section>
 
     <section>
-    <div class="container-footer" >
-    <div class="ftr-txts" >
-                <h4>CONTACT US</h4>
-                penea2025@gmail.com <br>
-                (+222 333 5555) <br>
-            </div>
+      <div class="container-footer">
+        <div class="ftr-txts">
+          <h4>CONTACT US</h4>
+          penea2025@gmail.com <br>
+          (+222 333 5555) <br>
+        </div>
 
-            <div class="ftr-txts">
-                <h4>OPEN HOURS</h4>
-               Monday- Saturday . . . . . . . . . . .10 AM - 11 PM <br>
-                Sunday . . . . . . . . . . . . . . . . . . . . . .Close
-            </div>
+        <div class="ftr-txts">
+          <h4>OPEN HOURS</h4>
+          Monday- Saturday . . . . . . . . . . .10 AM - 11 PM <br>
+          Sunday . . . . . . . . . . . . . . . . . . . . . .Close
+        </div>
 
-            <div class="ftr-txts">
-               
-                <form>
-                    <label for="mail"></label>
-                    <input placeholder="Enter your E-mail" type="email" name="email" id="mail" required>
-                </form>
-                <br><br>
+        <div class="ftr-txts">
 
-                <button class="btn">SEND</button>
-            </div>
-             </div>
-              <h4 class="final">© 2025 penea Made with &#128151 by HasThemes </h4>
+          <form>
+            <label for="mail"></label>
+            <input placeholder="Enter your E-mail" type="email" name="email" id="mail" required>
+          </form>
+          <br><br>
 
-</section>
+          <button class="btn">SEND</button>
+        </div>
+      </div>
+      <h4 class="final">© 2025 penea Made with &#128151 by HasThemes </h4>
+
+    </section>
 
 
-    
+
 </body>
+
 </html>
-
-
-
