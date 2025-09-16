@@ -210,3 +210,27 @@ input{
     text-align: center;
     margin: 0;
 }
+
+@media(max-width:426px){
+    .bg-img{
+        width: 1100px;
+    }
+    .tm-bg-clr{
+        width: 1100px;
+    }
+
+    .out-story .about{
+        width: 900px;
+        margin-left: 600px;
+    }
+
+    .container-footer{
+        width: 1100px;
+    }
+
+    .final{
+        width: 1040px;
+    }
+
+   
+}

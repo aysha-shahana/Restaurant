@@ -136,7 +136,7 @@ body {
     align-items: center;
 }
 
-.video video,
+video,
 .content {
     width: 700px;
     padding: 5px;
@@ -495,6 +495,8 @@ input {
         margin-left: 600px;
      }
 
+  
+
      .container-footer{
         width: 1194px;
      }
@@ -502,18 +504,16 @@ input {
      .final{
         width: 1134px;
      }
-
-
-
-    
-
-    
-
-    
-
-
-
 }
+
+ 
+
+
+
+
+
+    
+
 
 
 
@@ -672,22 +672,5 @@ input {
     .qts-crd {
         width: 350px;
         margin-left: 100px;
-    }
-}
-
-
-@media (max-width: 768px) {
-
-    .bg-img{
-        height: auto;
-        width: 400px;
-    }
-    video {
-        width: 920px;
-        height: auto;
-    }
-
-    .bg-img {
-        width: 1000px;
     }
 } */

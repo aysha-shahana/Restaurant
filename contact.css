@@ -1,85 +1,80 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     background-color: #2F4F4F;
 }
 
-.logo{
+.logo {
     font-size: 50px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, cursive;
     color: #f8e643;
 }
-.bg-img{
+
+.bg-img {
     background-image: url(images/untitled\ banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 750px;
-    
-    
 }
 
-.clr-sn{
+.clr-sn {
     text-decoration: none;
     color: black;
 }
 
-
-.menu{
+.menu {
     text-decoration: none;
     color: #f8e643;
 }
 
-
-
-.wlcm-qt{
+.wlcm-qt {
     margin-top: 150px;
     color: #f9930494;
     margin-bottom: 30px;
     font-size: 80px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   text-align: center;
-   text-transform: uppercase;
-   background: linear-gradient(to right, rgb(233, 153, 6),rgb(210, 175, 129),rgb(212, 210, 50),rgb(176, 105, 43),orange);
-   background-size: 200%;
-   background-clip: text;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   animation: animate-gradiant 2.5s linear infinite;
-
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, rgb(233, 153, 6), rgb(210, 175, 129), rgb(212, 210, 50), rgb(176, 105, 43), orange);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradiant 2.5s linear infinite;
 }
 
-@keyframes animate-gradiant{
+@keyframes animate-gradiant {
     to {
         background-position: 200%;
     }
 }
 
-.qt{
+.qt {
     margin-top: 150px;
     color: #f9930494;
     margin-top: 40px;
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   text-align: center;
-   background: linear-gradient(to right, rgb(116, 201, 25),rgb(191, 157, 111),rgb(212, 210, 50),rgb(164, 208, 109),  rgb(116, 201, 25));
-   background-size: 200%;
-   background-clip: text;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   animation: animate-gradiant 2.5s linear infinite;
+    text-align: center;
+    background: linear-gradient(to right, rgb(116, 201, 25), rgb(191, 157, 111), rgb(212, 210, 50), rgb(164, 208, 109), rgb(116, 201, 25));
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradiant 2.5s linear infinite;
 
 }
 
 
-.banner-img{
+.banner-img {
     display: flex;
     justify-content: space-around;
-    align-items: center; 
-    
+    align-items: center;
+
 }
 
-.options{
+.options {
     display: flex;
     justify-content: end;
     gap: 15px;
@@ -88,34 +83,36 @@ body{
     color: #f8e643;
 }
 
-#sign-in{
-  border-radius: 2px;
-  background-color:#ffb84d;
-  width: 56px;
-  height: 13px;
-  padding-bottom: 10px;
-  font-size: 14px;
-  text-align: center;
+#sign-in {
+    border-radius: 2px;
+    background-color: #ffb84d;
+    width: 56px;
+    height: 13px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
 }
 
-#sign-in:hover{
-   background: rgb(232, 155, 40);
-  border-radius: 2px;
-  color: black;
-  width: 56px;
-  height: 13px;
-  padding-bottom: 10px;
-  font-size: 14px;
-  text-align: center;
+#sign-in:hover {
+    background: rgb(232, 155, 40);
+    border-radius: 2px;
+    color: black;
+    width: 56px;
+    height: 13px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
 }
 
-.form-section{
+.form-section {
     display: flex;
     justify-content: center;
     margin: 40px 0;
-} 
+}
 
-.form input, .form button, .form textarea{
+.form input,
+.form button,
+.form textarea {
     width: 90%;
     margin-bottom: 15px;
     padding: 12px;
@@ -126,26 +123,26 @@ body{
     font-size: 14px;
 }
 
-.form textarea{
+.form textarea {
     resize: none;
     height: 120px;
 }
 
-.form button{
+.form button {
     background: #5b7c7d;
     color: #ffff;
     cursor: pointer;
 }
 
 
-.newsletter{
+.newsletter {
     background: #a8bdbf;
     padding: 20px;
     border-radius: 15px;
     width: 300px;
 }
 
-.newsletter input{
+.newsletter input {
     width: 94%;
     padding: 10px;
     margin: 10px 0;
@@ -154,7 +151,7 @@ body{
 
 }
 
-.newsletter button{
+.newsletter button {
     width: 100%;
     padding: 12px;
     border-radius: 10px;
@@ -164,7 +161,7 @@ body{
     cursor: pointer;
 }
 
-.info-container{
+.info-container {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -172,7 +169,8 @@ body{
     margin-left: 70px;
     width: 90%;
 }
-.info-box{
+
+.info-box {
     background: #e6f0f1;
     padding: 20px;
     flex: 1;
@@ -180,13 +178,13 @@ body{
     text-align: center;
 }
 
-.info-box i{
+.info-box i {
     font-size: 24px;
     margin-bottom: 10px;
     display: block;
 }
 
-.container-footer{
+.container-footer {
 
     display: flex;
     justify-content: space-around;
@@ -194,15 +192,15 @@ body{
     gap: 40px;
     background-color: #000404;
     height: 350px;
-    
+
 }
 
-.ftr-txts{
-    font-family:'Calibri';
-    color:white;
+.ftr-txts {
+    font-family: 'Calibri';
+    color: white;
 }
 
-.btn{
+.btn {
     width: 55px;
     height: 35px;
     border-radius: 8px;
@@ -210,7 +208,7 @@ body{
     font-weight: bold;
 }
 
-.btn:hover{
+.btn:hover {
     width: 55px;
     height: 35px;
     border-radius: 8px;
@@ -222,11 +220,11 @@ body{
 
 
 
-.ftr-txts h4{
+.ftr-txts h4 {
     font-size: 27px;
 }
 
-input{
+input {
     width: 220px;
     height: 30px;
     color: white;
@@ -234,10 +232,37 @@ input{
     border: solid 1px gray;
 }
 
-.final{
+.final {
     background-color: #070808;
     color: white;
     padding: 30px;
     text-align: center;
     margin: 0;
+}
+
+@media(max-width:426px) {
+    .bg-img {
+        width: 1500px;
+    }
+
+    .form-section {
+        width: 1500px;
+    }
+
+    .info-container {
+        width: 1400px;
+    }
+
+    iframe{
+        width: 1500px;
+        overflow: hidden;
+    }
+
+    .container-footer {
+        width: 1500px;
+    }
+
+    .final {
+        width: 1440px;
+    }
 }

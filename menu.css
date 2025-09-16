@@ -256,7 +256,39 @@ input{
 }
 
 
-@media screen and {
+@media(max-width:426px) {
+  .bg-img{
+    width: 1200px;
+  }
+
+  .card img{
+    width: 400px;
+    display: -webkit-box;
+    justify-content: start;
+    
+  }
+
+  .card{
+    width: 400px;
+  }
+
+
+  .card .h3{
+    font-size: 23px;
+  }
+
+  .products{
+    margin-left: 300px;
+  }
   
+  .container-footer{
+    width: 1198px;
+  }
+
+  .final{
+    width: 1137px;
+  }
+
 }
+
 
