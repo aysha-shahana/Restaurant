@@ -66,6 +66,7 @@ body{
 .options{
     display: flex;
     justify-content: end;
+    align-items: center;
     gap: 15px;
     list-style: none;
     font-size: 12px;
@@ -80,17 +81,11 @@ body{
   padding-bottom: 10px;
   font-size: 14px;
   text-align: center;
+  padding-top: 4px;
 }
 
 #sign-in:hover{
    background: rgb(232, 155, 40);
-  border-radius: 2px;
-  color: black;
-  width: 56px;
-  height: 13px;
-  padding-bottom: 10px;
-  font-size: 14px;
-  text-align: center;
 }
 
 .spcl-ofrs{
@@ -116,6 +111,7 @@ body{
 }
 
 .about{
+    padding: 20px 40px 20px 40px;
     color: white;
     font-size: 19px;
 }
@@ -123,6 +119,7 @@ body{
 .team-stry{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 50px;
     margin-top: 60px;
 
@@ -131,6 +128,7 @@ body{
 }
 
 .paragph{
+    padding: 0px 0px 0px 40px;
     color: #fff;
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -153,6 +151,7 @@ body{
 .team-img{
     width: 400px;
     border-radius: 10px;
+    margin-right: 70px;
 }
 
 
